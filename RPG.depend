@@ -1,0 +1,397 @@
+# depslib dependency file v1.0
+1670046921 source:/home/blizz/Projects/RPG/main.cpp
+	<iostream>
+	"ventizca.hpp"
+
+1670010385 /home/blizz/Projects/RPG/include/ventizca.hpp
+	<allegro.h>
+	<allegro5/allegro_image.h>
+	<iostream>
+	<string>
+	"Object.h"
+
+1441921812 /usr/include/allegro5/allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1657149803 /usr/include/x86_64-linux-gnu/sys/types.h
+	<features.h>
+	<bits/types.h>
+	<bits/types/clock_t.h>
+	<bits/types/clockid_t.h>
+	<bits/types/time_t.h>
+	<bits/types/timer_t.h>
+	<stddef.h>
+	<bits/stdint-intn.h>
+	<endian.h>
+	<sys/select.h>
+	<bits/pthreadtypes.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/timesize.h>
+	<bits/typesizes.h>
+	<bits/time64.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/wordsize.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/timesize.h
+	<bits/wordsize.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/typesizes.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/time64.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+	<bits/types.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+	<bits/types.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+	<bits/types.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+	<bits/types.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+	<bits/types.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/types/sigset_t.h>
+	<bits/types/time_t.h>
+	<bits/types/struct_timeval.h>
+	<bits/types/struct_timespec.h>
+	<bits/select2.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/select.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+	<bits/types/__sigset_t.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+	<bits/types.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+	<bits/types.h>
+	<bits/endian.h>
+	<bits/types/time_t.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/endian.h
+	<bits/endianness.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/endianness.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/select2.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+	<bits/thread-shared-types.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+	<bits/pthreadtypes-arch.h>
+	<bits/atomic_wide_counter.h>
+	<bits/struct_mutex.h>
+	<bits/struct_rwlock.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+	<bits/wordsize.h>
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
+
+1657149803 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/internal/alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1643724388 /usr/include/x86_64-linux-gnu/allegro5/platform/alplatf.h
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/alandroidcfg.h
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/alunix.h
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/platform/astdbool.h
+	<stdbool.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/altime.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/bitmap.h
+	"allegro5/color.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/color.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/utf8.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/events.h
+	"allegro5/altime.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/config.h
+	"allegro5/file.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/cpu.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/drawing.h
+	"allegro5/color.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/error.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/fixed.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/inline/fmaths.inl
+	"allegro5/error.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/fullscreen_mode.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/keycodes.h
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/memory.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/monitor.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/mouse_cursor.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/render_state.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/transformations.h
+	"allegro5/display.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/threads.h
+	"allegro5/altime.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/tls.h
+	"allegro5/base.h"
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/alcompat.h
+
+1670002914 /usr/include/x86_64-linux-gnu/allegro5/allegro_image.h
+	"allegro5/base.h"
+
+1670007183 /home/blizz/Projects/RPG/include/Object.h
+	"ventizca.hpp"
+
+1670006834 source:/home/blizz/Projects/RPG/src/Object.cpp
+	"Object.h"
+	<random>
+

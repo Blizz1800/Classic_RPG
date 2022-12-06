@@ -1,0 +1,18 @@
+#ifndef VENTIZCA_
+#define VENTIZCA_
+
+
+class ventizca
+{
+    public:
+        /** Default constructor */
+        ventizca() {}
+        /** Default destructor */
+        virtual ~ventizca() {}
+
+    protected:
+
+    private:
+};
+
+#endif // VENTIZCA_

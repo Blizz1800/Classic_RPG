@@ -1,0 +1,11 @@
+#include "Ventizca.hpp"
+
+Ventizca::Ventizca()
+{
+    //ctor
+}
+
+Ventizca::~Ventizca()
+{
+    //dtor
+}
